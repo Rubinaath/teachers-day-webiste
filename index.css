@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root
+{
+    --primary-color:#047aed;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding:0;
+    border:0;
+}
+
+body
+{
+    font-family:"lato", "sans-serif";
+    color: #333;
+    line-height: 1.6em,
+}
+ul
+{
+    list-style-type: none;
+} 
+a
+{
+    text-decoration: none;
+    color:#333;
+
+}
+
+h1, h2
+{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px, 0px;
+}
+
+p
+{
+    margin: 10px 0px;
+}
+img
+{
+    width: 100%;
+}
+.navbar
+{
+    background-color:var(--primary-color);
+    color:white;
+    height:85px;
+    text-align:center;
+}
+
+.navbar .flex
+{
+    justify-content: space-between;
+}
+.navbar ul
+{
+    display:flex;
+}
+.navbar a
+{
+    padding:10px;
+    margin:0px 5px;
+    color:white;
+}
+.navbar a:hover
+{
+    border-bottom:2px solid white;
+}
+.container
+{
+    max-width:1100px;
+    margin: 0 auto;
+    overflow:auto;
+    padding:0, 40px;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* Showcase */
+.showcase
+{
+    height:400px;
+    background-color:var(--primary-color);
+}
+.intro
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align: left
+    ;
+}
+
+.para1
+{   font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+.title
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:center;
+}
+.paraext
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+.para2
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+.para3
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+.para4
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+.para6
+{
+    font-family:"roboto", "Helvetica Neue", Helvetica, Arial;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.8em;
+    font-style:bold;
+    text-align:left;
+    animation:paraanimations 3s ease;
+}
+@keyframes paraanimations
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+.content
+{
+    padding:10px;
+    animation:paraanimations 3s ease;
+}
+.credits
+{
+    padding:5px;
+    color:rebeccapurple;
+}
+.credits.h2
+{
+ 
+}
